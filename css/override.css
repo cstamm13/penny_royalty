@@ -10,9 +10,11 @@ header {
 
 header .header-content .header-content-inner p {
     font-weight: 300;
-    color: rgba(255, 255, 255, .7);
+    color: #e6e6e6;
+    opacity: .7;
+            /*rgba(255, 255, 255, .7);*/
     font-size: 16px;
-/*    margin-bottom: 50px;*/
+    /*    margin-bottom: 50px;*/
 }
 
 @font-face {
@@ -48,40 +50,32 @@ header .header-content .header-content-inner p {
     background-position: center;
 }*/
 
-
-
-
 .navbar-default {
     border: none;
     font-size: xx-large;
 }
 
 .navbar-default.affix {
-    background-color: #2d2d2d;
+    background-color: #222222;
     opacity: 1;
     font-size: xx-large;
 }
 
 .navbar-default.affix .nav > li > a, .navbar-default.affix .nav > li > a:focus {
-    color: #eaea32;
+    color: #fab824;;
     font-size: xx-large;
 }
 
 .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
-    color: #b2b2b2 !important;
+    color: #e6e6e6 !important;
     background-color: transparent;
     font-size: xx-large;
 }
 
 .navbar-default.affix .nav > li > a:focus:hover, .navbar-default.affix .nav > li > a:hover {
-    color: #b2b2b2;
+    color: #e6e6e6;
     font-size: xx-large;
 }
-
-
-
-
-
 
 /*.navbar-brand {
     text-align: center;
@@ -95,7 +89,7 @@ header .header-content .header-content-inner p {
 }
 
 #mainNav .brand-name {
-    color: #eaea32;
+    color: #fab824;;
 }
 
 #homeHeading {
@@ -123,11 +117,11 @@ header .header-content .header-content-inner p {
     /*
     position: absolute;
     */
-/*    bottom: 0;
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 100%;
-    background-color: transparent;*/
+    /*    bottom: 0;
+        margin-left: 50%;
+        margin-right: 50%;
+        width: 100%;
+        background-color: transparent;*/
 
     /*
     background-color: rgba(45, 45, 45, .7);
@@ -138,7 +132,17 @@ header .header-content .header-content-inner p {
     */
 }
 
+#services {
+    background-color: #222222;
+}
 
+#services i {
+    color: #fab824;
+}
+
+.section-heading, .social-section-heading {
+    color: #e6e6e6;
+}
 
 /*.btn-xl {
     padding: 0;
@@ -212,3 +216,130 @@ a:focus, a:hover {
 
 
 */
+
+#contact{
+    padding:10px 0 10px;
+}
+
+.contact-text{
+    margin:45px auto;
+}
+
+.mail-message-area{
+    width:100%;
+    padding:0 15px;
+}
+
+.mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+}
+
+.not-visible-message{
+    height:0;
+    opacity: 0;
+}
+
+.visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+}
+
+/* Input Styles */
+
+.form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.form:hover{
+    border:1px solid #d29a09;
+}
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #d29a09;
+}
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/* Generic Button Styles */
+
+.button{
+    padding:8px 12px;
+    background:#d29a09;
+    display: block;
+    width:120px;
+    margin:10px 0 0 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+}
+
+.button:hover{
+    background:#d29a09;
+    color:#3c3c3c;
+}
+
+/* Send Button Styles */
+
+.form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#3c3c3c;
+    background:#d29a09;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+}
+
+.form-btn:hover{
+    background:#3c3c3c;
+    color: #d29a09;
+    border:none;
+}
+
+.form-btn:active{
+    opacity: 0.9;
+}
+center{
+    margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 1999;
+}
