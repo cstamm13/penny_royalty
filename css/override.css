@@ -1,20 +1,28 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 header {
     background: url(../images/band1.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-position-y: -80px;*/
-    /*color: #2d2d2d;*/
+    background-position-y: -80px;
 }
 
 header .header-content .header-content-inner p {
     font-weight: 300;
     color: #e6e6e6;
     opacity: .7;
-            /*rgba(255, 255, 255, .7);*/
     font-size: 16px;
-    /*    margin-bottom: 50px;*/
+
+}
+
+footer {
+    background-color: rgba(45, 45, 45, .9);
+    color: #fab824;;
 }
 
 @font-face {
@@ -35,20 +43,6 @@ header .header-content .header-content-inner p {
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     font-size: xx-large;
 }
-
-/*#about {
-    background-image: url("../images/band.jpg");
-    font-weight: 300;
-    color: rgba(255, 255, 255, .7);
-    font-size: 16px;
-    margin-bottom: 50px;
-    min-height: inherit;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-}*/
 
 .navbar-default {
     border: none;
@@ -144,6 +138,19 @@ header .header-content .header-content-inner p {
     color: #e6e6e6;
 }
 
+#about {
+    background-color: #fab824;
+    color: #222222;
+}
+
+#about h2 {
+    color: #222222;
+}
+
+#services hr {
+    border-color: #fab824;
+}
+
 /*.btn-xl {
     padding: 0;
     margin-top: 0;
@@ -219,6 +226,7 @@ a:focus, a:hover {
 
 #contact{
     padding:10px 0 10px;
+    background-color: rgba(45, 45, 45, .9);
 }
 
 .contact-text{
@@ -267,13 +275,13 @@ a:focus, a:hover {
 }
 
 .form:hover{
-    border:1px solid #d29a09;
+    border:1px solid #fab824;
 }
 
 .form:focus{
     color: white;
     outline: none;
-    border:1px solid #d29a09;
+    border:1px solid #fab824;
 }
 
 .textarea{
@@ -286,7 +294,7 @@ a:focus, a:hover {
 
 .button{
     padding:8px 12px;
-    background:#d29a09;
+    background:#fab824;
     display: block;
     width:120px;
     margin:10px 0 0 0;
@@ -302,44 +310,62 @@ a:focus, a:hover {
 }
 
 .button:hover{
-    background:#d29a09;
+    background:#fab824;
     color:#3c3c3c;
 }
 
 /* Send Button Styles */
 
 .form-btn{
-    width:180px;
-    display: block;
-    height: auto;
-    padding:15px;
     color:#3c3c3c;
-    background:#d29a09;
-    border:none;
-    border-radius:3px;
-    outline: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    margin:auto;
-    box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+    background:#fab824;
+    border: 1px solid;
+/*    border-radius: 17px;
+    -webkit-border-radius: 17px;*/
 }
 
 .form-btn:hover{
     background:#3c3c3c;
-    color: #d29a09;
-    border:none;
+    color: #fab824;
+    border: 1px solid;
 }
 
 .form-btn:active{
     opacity: 0.9;
 }
+
 center{
     margin-top:330px;
 }
+
 input {
     position: relative;
     z-index: 1999;
 }
+
+
+/*
+#background-carousel{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.carousel,
+.carousel-inner {
+    width:100%;
+    height:100%;
+    z-index:0;
+    overflow:hidden;
+}
+.item {
+    width:100%;
+    height:100%;
+    background-position:center center;
+    background-size:cover;
+    z-index:0;
+}*/
+
+
+
+

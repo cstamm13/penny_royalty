@@ -25515,7 +25515,18 @@ require = (function e(t, n, r) {
                 __p += __j.call(arguments, '');
             };
             with (obj || {}) {
-                __p += '<a class="bit-event" href="' +
+                __p += '<div class="bit-event"> \n  <div class="bit-details"><div class="bit-date">' +
+                    ((__t = ( date )) == null ? '' : _.escape(__t)) +
+                    '</div>\n    <div class="bit-venue">' +
+                    ((__t = ( venue )) == null ? '' : _.escape(__t)) +
+                    '</div>\n    <div class="bit-location">' +
+                    ((__t = ( location )) == null ? '' : _.escape(__t)) +
+                    '</div>\n  </div>\n  <a id="bit-button" href="' +
+                    ((__t = ( eventURL )) == null ? '' : __t) +
+                    '" target="_blank" class="bit-event btn btn-default btn-xs sr-button form-btn">' +
+                    ((__t = ( offers )) == null ? '' : __t) +
+                    '</a>\n</div>';
+                    /*'<a class="bit-event" href="' +
                     ((__t = ( eventURL )) == null ? '' : __t) +
                     '" target="_blank">\n  <div class="bit-details">\n    <div class="bit-date">' +
                     ((__t = ( date )) == null ? '' : _.escape(__t)) +
@@ -25525,7 +25536,7 @@ require = (function e(t, n, r) {
                     ((__t = ( location )) == null ? '' : _.escape(__t)) +
                     '</div>\n  </div>\n  <div class="btn btn-default btn-sm sr-button text-muted">' +
                     ((__t = ( offers )) == null ? '' : __t) +
-                    '</div>\n</a>';
+                    '</div>\n</a>';*/
             }
             return __p;
         };
