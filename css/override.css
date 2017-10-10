@@ -224,67 +224,67 @@ a:focus, a:hover {
 
 */
 
-#contact{
-    padding:10px 0 10px;
+#contact {
+    padding: 10px 0 10px;
     background-color: rgba(45, 45, 45, .9);
 }
 
-.contact-text{
-    margin:45px auto;
+.contact-text {
+    margin: 45px auto;
 }
 
-.mail-message-area{
-    width:100%;
-    padding:0 15px;
-}
-
-.mail-message{
+.mail-message-area {
     width: 100%;
-    background:rgba(255,255,255, 0.8) !important;
+    padding: 0 15px;
+}
+
+.mail-message {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8) !important;
     -webkit-transition: all 0.7s;
     -moz-transition: all 0.7s;
     transition: all 0.7s;
-    margin:0 auto;
+    margin: 0 auto;
     border-radius: 0;
 }
 
-.not-visible-message{
-    height:0;
+.not-visible-message {
+    height: 0;
     opacity: 0;
 }
 
-.visible-message{
-    height:auto;
+.visible-message {
+    height: auto;
     opacity: 1;
-    margin:25px auto 0;
+    margin: 25px auto 0;
 }
 
 /* Input Styles */
 
-.form{
+.form {
     width: 100%;
     padding: 15px;
-    background:#f8f8f8;
-    border:1px solid rgba(0, 0, 0, 0.075);
-    margin-bottom:25px;
-    color:#727272 !important;
-    font-size:13px;
+    background: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 25px;
+    color: #727272 !important;
+    font-size: 13px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
 }
 
-.form:hover{
-    border:1px solid #fab824;
+.form:hover {
+    border: 1px solid #fab824;
 }
 
-.form:focus{
+.form:focus {
     color: white;
     outline: none;
-    border:1px solid #fab824;
+    border: 1px solid #fab824;
 }
 
-.textarea{
+.textarea {
     height: 200px;
     max-height: 200px;
     max-width: 100%;
@@ -292,57 +292,56 @@ a:focus, a:hover {
 
 /* Generic Button Styles */
 
-.button{
-    padding:8px 12px;
-    background:#fab824;
+.button {
+    padding: 8px 12px;
+    background: #fab824;
     display: block;
-    width:120px;
-    margin:10px 0 0 0;
-    border-radius:3px;
+    width: 120px;
+    margin: 10px 0 0 0;
+    border-radius: 3px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    text-align:center;
-    font-size:0.8em;
-    box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0 1px 4px rgba(0,0,0, 0.10);
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
 }
 
-.button:hover{
-    background:#fab824;
-    color:#3c3c3c;
+.button:hover {
+    background: #fab824;
+    color: #3c3c3c;
 }
 
 /* Send Button Styles */
 
-.form-btn{
-    color:#3c3c3c;
-    background:#fab824;
+.form-btn {
+    color: #3c3c3c;
+    background: #fab824;
     border: 1px solid;
-/*    border-radius: 17px;
-    -webkit-border-radius: 17px;*/
+    /*    border-radius: 17px;
+        -webkit-border-radius: 17px;*/
 }
 
-.form-btn:hover{
-    background:#3c3c3c;
+.form-btn:hover {
+    background: #3c3c3c;
     color: #fab824;
     border: 1px solid;
 }
 
-.form-btn:active{
+.form-btn:active {
     opacity: 0.9;
 }
 
-center{
-    margin-top:330px;
+center {
+    margin-top: 330px;
 }
 
 input {
     position: relative;
     z-index: 1999;
 }
-
 
 /*
 #background-carousel{
@@ -367,5 +366,207 @@ input {
 }*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bit-widget {
+    font-size:inherit;
+    font-family:inherit;
+    width:100%;
+    color:#3c3c3c;
+    background-color:transparent;
+}
+
+.bit-event a {
+    font-size: x-large;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.bit-widget .bit-offers {
+    background-color:rgb(240, 95, 64);
+    font-size:inherit
+}
+
+.bit-widget .bit-event {
+    border-top: 1px solid rgba(124,124,124,0.25);
+    color: #777;
+}
+
+.bit-widget .bit-upcoming-events, .bit-past-events {
+    border-bottom: 1px solid rgba(124,124,124,0.25);
+}
+
+.bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button {
+    color: #fab824;
+    border: 1px solid;
+}
+
+.bit-widget .bit-clickable {
+    color: #fab824;
+}
+
+.bit-widget {
+    min-width: 270px;
+    padding-bottom: 10px;
+}
+
+.bit-widget .bit-spacer {
+    height: 10px;
+}
+
+.bit-widget .bit-date {
+    font-weight: bold;
+}
+
+.bit-widget .bit-no-dates-container {
+    border-top: 1px solid rgba(124, 124, 124, 0.25);
+    text-align: center;
+    margin: 0 10px 0 10px;
+    padding: 100px 0 100px 0;
+}
+
+.bit-widget .bit-no-dates-container .bit-no-dates-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.bit-widget .bit-no-dates-container .bit-track-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0;
+    width: 284px;
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+}
+
+.bit-widget .bit-nav-bar-container {
+  padding: 0 10px 0 10px;
+}
+
+.bit-widget .bit-nav-bar-container .bit-nav-bar {
+    display: inline-flex;
+    float: none;
+    flex-direction: row;
+}
+
+.bit-widget .bit-upcoming-events, .bit-widget .bit-past-events {
+    margin: 0 10px 10px 10px;
+}
+
+.bit-widget .bit-local-events-container {
+    margin: 0 10px 0 10px;
+}
+
+.bit-widget .bit-upcoming-events-show-all-button, .bit-widget .bit-past-events-show-all-button {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 12px 0;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 10px 0 10px;
+}
+
+.bit-widget .bit-button {
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bit-widget .bit-offers {
+    text-transform: uppercase;
+    margin-right: 2px;
+}
+
+.bit-widget .bit-event-list-title {
+    font-weight: bold;
+    padding: 10px 12px 10px 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.bit-widget .bit-event-list-title.bit-clickable {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bit-widget .bit-event {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+    margin: 5px;
+}
+
+.bit-widget .bit-event .bit-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+    line-height: 1.5em;
+}
+
+.bit-widget .bit-event .bit-offers {
+    flex: 0 0 12em;
+    white-space: nowrap;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.bit-widget.bit-layout-row .bit-event:hover {
+    background-color: rgba(81, 81, 81, 0.1);
+}
+
+.bit-widget.bit-layout-row .bit-event .bit-details {
+    flex-direction: row;
+    width: 100%;
+}
+
+.bit-widget.bit-layout-row .bit-event .bit-details .bit-date {
+    font-weight: bold;
+    width: 12.5%;
+    white-space: nowrap;
+    flex: 1 0 8em;
+}
+
+.bit-widget.bit-layout-row .bit-event .bit-details .bit-venue {
+    width: 43.75%;
+    padding-right: 22px;
+}
+
+.bit-widget.bit-layout-row .bit-event .bit-details .bit-location {
+    width: 43.75%;
+}
+
+.bit-widget img.bit-widget-loading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 20px;
+}
+
+.bit-widget .google-pixel-iframe {
+    height: 1px;
+    width: 1px;
+    display: none;
+}
 
 

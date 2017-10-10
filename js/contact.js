@@ -16,7 +16,7 @@ LPAWS.sendToTopic = function () {
 
     var params = {
         Message: fullMessage.toString(),
-        Subject: 'Get Stammered Email Question From ' + document.querySelector('#name').value,
+        Subject: 'Penny Royalty Email Question From ' + document.querySelector('#name').value,
         TopicArn: 'arn:aws:sns:us-east-1:159241008783:Get_Stammered_Contact_Form'
     };
     sns.publish(params, function (err, data) {
