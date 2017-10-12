@@ -1,9 +1,8 @@
 var LPAWS = {};
 
 AWS.config.region = 'us-east-1';
-//////////////////////////////////////////////
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: 'us-east-1:d5e877e5-7fd4-4bf5-9928-ff712514f064'
+    IdentityPoolId: 'us-east-1:c85f230e-74cf-40fd-80c7-f0c19c65b968'
 });
 
 LPAWS.sendToTopic = function () {
@@ -17,14 +16,14 @@ LPAWS.sendToTopic = function () {
     var params = {
         Message: fullMessage.toString(),
         Subject: 'Penny Royalty Email Question From ' + document.querySelector('#name').value,
-        TopicArn: 'arn:aws:sns:us-east-1:159241008783:Get_Stammered_Contact_Form'
+        TopicArn: 'arn:aws:sns:us-east-1:159241008783:Penny_Royalty_contact_Form'
     };
     sns.publish(params, function (err, data) {
         if (err) {
             console.log(err, err.stack);
         } else {
             console.log(data);
-            window.location.replace('thanks.html');
+            $('#thankYouModal').modal('show')
         }
     });
 };
