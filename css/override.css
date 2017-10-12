@@ -1,4 +1,4 @@
-body {
+#page-top {
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -425,6 +425,14 @@ input {
     display: none;
 }
 
+.modal-content {
+    background-color: #222222;
+    color: #e6e6e6;
+}
+
+.modal-title {
+    color: #fab824;
+}
 
 @media (max-width: 767px) {
     header {
