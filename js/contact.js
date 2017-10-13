@@ -18,7 +18,7 @@ LPAWS.sendToTopic = function () {
         Subject: 'Penny Royalty Email Question From ' + document.querySelector('#name').value,
         TopicArn: 'arn:aws:sns:us-east-1:159241008783:Penny_Royalty_contact_Form'
     };
-    sns.publish(params, function (err, data) {
+    sns.Publish(params, function (err, data) {
         if (err) {
             console.log(err, err.stack);
         } else {
